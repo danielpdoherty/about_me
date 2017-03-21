@@ -1,0 +1,13 @@
+Basic responsive website built in html-css-js
+
+Using Bootstrap CSS and googlefonts for added styling.
+Used featherlight lightbox for simple lightbox effects and slick carousel for a carousel on the mobile version of the site.
+
+Used jQuery to  provide some interactivity and use logic for certain functionality on certain styling elements.
+
+I decided to build a site that I could use as a website for myself in the future. I wanted to practice styling a site and making it respsonsive.
+
+I had some trouble with getting the hamburger menu working and think that in the future will use bootstrap javascript library to simplify the process. I also could not figure out how to have the navbar highlight when in a certain section. Both are works in progress.
+In general would like to clean up messy code and DRY up code at a later date.
+
+Was happy to have a fully functional site. Happy with the way respsonsiveness turned out. I think I will simplify the site somewhat more before working towards it being my personal website. Would rather have good clean dry code than anything super fancy.

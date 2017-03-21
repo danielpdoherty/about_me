@@ -1,0 +1,331 @@
+@media screen and (max-width: 700px) {
+	
+	header{
+		font-size: .65em;
+	}
+
+	.nav{
+		padding: .75em;
+	}
+
+	.nav a{
+		margin: .15em;
+	}
+
+	header h2 {
+		display: none;
+	}
+
+	.hamburger li{
+	 	display: none;
+	}
+
+	.about img{
+		width: 100%;
+		border-radius: 100%;
+	}
+
+	.project{
+		display: none;
+	}
+
+	.project-link{
+		display: none;
+	}
+
+	.project-sm{
+		display: block;
+	}
+
+	footer a{
+		display: block;
+		float: left;
+		margin: 20px;
+	}
+
+}
+
+@media screen and (min-width: 700px) {
+	
+	.project-sm{
+		display: none;
+	}
+
+	.project-sm-link{
+		display: none;
+	}
+
+	.hamburger{
+		display: none;
+	}
+
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+header{
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	background: rgba(48, 102, 190, 0.9);
+	color:#AEECEF;
+	padding-left: 2em;
+	padding-right: 3em;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	z-index: 99;
+}
+
+header img{
+	height:90px;
+	width: 120px;
+}
+
+.nav{
+	display: inline;
+	width:auto;
+	margin:2em;
+	/*position:fixed;
+	overflow: hidden;*/
+}
+
+.nav a{
+	color:#AEECEF;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 1em;
+	border-radius: 10px;
+	/*padding-right: 5px;*/
+	transition: 1s border ease-in-out;
+	transition: 1s color ease-in-out;
+	transition: 1s background-color ease-in-out;
+}
+
+.nav a:hover{
+	text-decoration: none;
+	color:lightgrey;
+	border: 1px solid rgba(0,25,255,1);
+	border-radius: 10px;
+	background-color: rgba(0, 25, 255, 0.8);
+	transition-delay: 55ms;
+}
+
+.nav a:visited{
+	text-decoration: none;
+	color: lightgrey;
+}
+
+
+
+section h1{
+	text-align: center;
+	font-size: 3em;
+	font-weight: 700;
+	color:#AEECEF;
+	}
+
+.border{
+	border-bottom: 5px solid #80DED9;
+	width: 15%;
+	position: relative;
+	margin:auto;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.border-dark{
+	border-bottom: 5px solid #119DA4;
+	width: 15%;
+	position: relative;
+	margin:auto;
+	margin-top: 1.5em;
+	margin-bottom: 3em;
+}
+
+h2{
+	display: flex;
+	flex: 1;
+	margin: auto;
+	margin-left: .5em;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.about img{
+	display: block;
+	margin:auto;
+	border: 5px solid #80DED9;
+	border-radius: 50%;
+	height: 20em;
+}
+
+
+.about{
+	background-color: #119DA4;
+	padding: 6em;
+	color: #80DED9;
+}
+
+.project h3{
+	margin: auto;
+	text-align: center;
+	color: #119DA4;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 50px;
+}
+
+.project .img-responsive{
+	margin:auto;
+	/*width: auto;*/
+	text-align: center;
+}
+
+.project .img-large{
+	margin-bottom: 3em;
+}
+
+.project .img-large img{
+	height:20em;
+}
+
+.project button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:  2px 15px;
+	background: #3066BE;
+	color: #AEECEF;
+	font-size:20px;
+	border: 1px solid white;
+}
+
+.project-sm{
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.img-caro{
+	display: flex;
+	margin: 20px auto !important;
+}
+
+.img-caro div{
+	margin: 0 auto;
+	width: 50%;
+}
+
+.img-caro button{	
+	margin: auto !important;
+	border: 1px solid white;
+	background-color: #3066BE;
+	color: #AEECEF;
+	font-size: 40px;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.img-caro .inner-button{
+	display: flex;
+	margin: 20px auto !important;
+	border:none;
+	background-color: #3066BE;
+	font-size: 20px;
+}
+
+
+.contact {
+	margin-top: 2em;
+	background: #6D9DC5;
+}
+
+.link-side{
+}
+
+.link-side a{
+	display: block;
+	background: #119DA4;
+	color: #AEECEF;
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	padding: 1em;
+}
+
+.link-side a:hover{
+	color:#80DED9;
+	background: #6D9DC5;
+	border-top: 1px solid #80DED9;
+	border-left: 1px solid #80DED9;
+	border-bottom: 1px solid #80DED9;
+}
+
+#form-side{
+	background: #6D9DC5;
+	color: #80DED9;
+	font-size: 30px;
+	text-align: center;
+}
+
+#t-info h4, #c-info h4{
+	font-size: 40px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+blockquote{
+	font-size: 25px;
+}
+
+input{
+	display: flex;
+	width: 50%;
+	margin: 10px auto;
+}
+
+textarea{
+	height:200px;
+	width: 50%;
+}
+
+.submit{
+	border: 1px solid #80DED9;
+	color: #80DED9;
+	background: #119DA4;
+	margin-bottom: 1em; 
+}
+
+button:hover {
+	border: 1px solid white;
+	color: white;
+}
+
+.nopadding{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+footer{
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	background: #3066BE;
+	color: #AEECEF;
+}
+
+footer img{
+	height: 29px;
+	padding: 2px;
+}
+
+footer span{
+	text-align: center;
+	padding: 0px 2em;
+}
